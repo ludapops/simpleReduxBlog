@@ -1,1 +1,2 @@
-npm install --save react-router-dom@4.0.0
+do you use middle ware a lot ?
+and what is a store really?
