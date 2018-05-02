@@ -1,2 +1,6 @@
 do you use middle ware a lot ?
 and what is a store really?
+
+gotcha
+fuzzy matching on route path
+move most specific routes at the top of the list
