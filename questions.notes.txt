@@ -1,6 +1,9 @@
 do you use middle ware a lot ?
 and what is a store really?
 
+notes
+https://redux-form.com/7.3.0/examples/simple/
+
 gotcha
 fuzzy matching on route path
 move most specific routes at the top of the list
