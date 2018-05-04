@@ -10,9 +10,19 @@ class PostsIndex extends Component {
   }
 
   renderPost() {
-    return _.map(this.props.posts, post => (<li className="list-group-item" key={post.id}>
-      {post.title}
-    </li>));
+    return _.map(this.props.posts, (post) => {
+      if (post.title !== null) {
+        return (
+          <li className="list-group-item" key={post.id}>
+            <Link to={`posts/${post.id}`}>
+              {post.title}
+            </Link>
+
+          </li>
+        );
+      }
+      console.log('no post title');
+    });
   }
 
   render() {
